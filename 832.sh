@@ -317,3 +317,4 @@ echo "========================================"  | tee -a log-install.txt
 cat /dev/null > ~/.bash_history && history -c
 service nginx restart
 echo "test" >> /etc/openvpn/log.log
+reboot
